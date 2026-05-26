@@ -6,8 +6,6 @@ import { ArrowLeft } from "lucide-react";
 export function BrilliantMindsGallery() {
   const images: string[] = [
     "/Brilliand_Minds/brilliant_mind1.jpeg",
-    "/Brilliand_Minds/brilliant_mind2.jpeg",
-    "/Brilliand_Minds/brilliant_mind3.jpeg",
     "/Brilliand_Minds/brilliant_mind4.jpeg",
     "/Brilliand_Minds/brilliant_mind5.jpeg",
     "/Brilliand_Minds/brilliant_mind6.jpeg",

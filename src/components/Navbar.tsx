@@ -51,10 +51,10 @@ export function Navbar() {
           />
           <div style={{ display: 'none' }} className="w-10 h-10 bg-primary rounded-full items-center justify-center text-gold font-serif text-xl font-bold">D</div>
           <div className="flex flex-col">
-            <span className="text-xl font-serif font-bold tracking-tight text-primary leading-tight">
+            <span className="text-lg md:text-xl font-serif font-bold tracking-tight text-primary leading-tight">
               DUROSHINE <span className="text-gold">INTERIOR</span>
             </span>
-            <span className="text-[10.5px] text-primary/80 font-normal tracking-[0.2em] mt-0.5 whitespace-nowrap uppercase">
+            <span className="text-[7.5px] sm:text-[8.5px] md:text-[10.5px] text-primary/80 font-normal tracking-widest md:tracking-[0.2em] mt-0.5 whitespace-nowrap uppercase">
               FURNITURE <span className="text-primary/40 px-0.5">|</span> EXECUTION <span className="text-primary/40 px-0.5">|</span> DESIGN
             </span>
           </div>

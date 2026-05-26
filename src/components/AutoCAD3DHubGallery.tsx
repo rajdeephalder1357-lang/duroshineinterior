@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 
 export function AutoCAD3DHubGallery() {
@@ -58,6 +58,13 @@ export function AutoCAD3DHubGallery() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
                   
+                  {/* View Gallery Button */}
+                  <div className="absolute inset-0 flex items-center justify-center z-10 text-center pointer-events-none">
+                    <span className="inline-flex items-center gap-2 bg-gold/90 hover:bg-gold text-primary font-serif font-bold text-lg md:text-xl px-8 md:px-10 py-3 md:py-4 rounded-full shadow-2xl transition-transform hover:scale-105 pointer-events-auto">
+                      View Gallery <ArrowRight className="w-5 h-5" />
+                    </span>
+                  </div>
+
                   <div className="absolute bottom-0 left-0 p-8 w-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                     <h3 className="text-2xl font-serif text-white mb-2 italic">{gallery.title}</h3>
                     <p className="text-white/80 font-light opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export function Portfolio() {
   return (
-    <section id="portfolio" className="py-24 md:py-32 bg-cream border-t border-beige">
+    <section id="portfolio" className="hidden md:block py-24 md:py-32 bg-cream border-t border-beige">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
           <p className="text-gold uppercase tracking-[0.2em] font-bold text-xl md:text-2xl mb-4">Our Portfolio</p>

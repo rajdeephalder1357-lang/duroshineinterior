@@ -5,10 +5,8 @@ import { ArrowLeft } from "lucide-react";
 
 export function GuestHouseGallery() {
   const images: string[] = [
-    "/guest_house/Gust_house (1).jpeg",
     "/guest_house/Gust_house (1).png",
     "/guest_house/Gust_house (2).jpeg",
-    "/guest_house/Gust_house (2).png",
     "/guest_house/Gust_house (3).png",
     "/guest_house/Gust_house (4).jpeg",
   ];
