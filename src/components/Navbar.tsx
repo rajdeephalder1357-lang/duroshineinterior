@@ -50,9 +50,14 @@ export function Navbar() {
             }}
           />
           <div style={{ display: 'none' }} className="w-10 h-10 bg-primary rounded-full items-center justify-center text-gold font-serif text-xl font-bold">D</div>
-          <span className="text-xl font-serif font-bold tracking-tight text-primary">
-            DUROSHINE <span className="text-gold">INTERIOR</span>
-          </span>
+          <div className="flex flex-col">
+            <span className="text-xl font-serif font-bold tracking-tight text-primary leading-tight">
+              DUROSHINE <span className="text-gold">INTERIOR</span>
+            </span>
+            <span className="text-[10.5px] text-primary/80 font-normal tracking-[0.2em] mt-0.5 whitespace-nowrap uppercase">
+              FURNITURE <span className="text-primary/40 px-0.5">|</span> EXECUTION <span className="text-primary/40 px-0.5">|</span> DESIGN
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
