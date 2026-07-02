@@ -95,16 +95,18 @@ export function Navbar() {
             exit={{ opacity: 0, y: -20 }}
             className="absolute top-full left-0 w-full bg-warm-white border-b border-beige shadow-xl py-6 px-6 flex flex-col gap-6 md:hidden"
           >
-            {links.map((link) => (
-              <a
-                key={link}
-                href={link === "About" ? getHref("about-mobile") : getHref(link)}
-                onClick={() => setMobileMenuOpen(false)}
-                className="text-primary uppercase tracking-widest text-sm font-semibold hover:text-gold transition-colors"
-              >
-                {link}
-              </a>
-            ))}
+            {links
+              .filter((link) => link !== "Portfolio")
+              .map((link) => (
+                <a
+                  key={link}
+                  href={link === "About" ? getHref("about-mobile") : getHref(link)}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="text-primary uppercase tracking-widest text-sm font-semibold hover:text-gold transition-colors"
+                >
+                  {link}
+                </a>
+              ))}
           </motion.div>
         )}
       </AnimatePresence>

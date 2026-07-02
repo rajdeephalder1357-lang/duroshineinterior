@@ -80,9 +80,17 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="flex flex-col sm:flex-row gap-4 relative z-10"
         >
+          {/* Mobile View Projects (goes to Project Categories) */}
+          <a
+            href="#projects"
+            className="block md:hidden px-8 py-4 bg-primary text-white uppercase tracking-[0.2em] text-xs font-semibold rounded-sm hover:bg-taupe transition-all text-center shadow-lg"
+          >
+            View Projects
+          </a>
+          {/* Desktop View Projects (goes to Portfolio) */}
           <a
             href="#portfolio"
-            className="px-8 py-4 bg-primary text-white uppercase tracking-[0.2em] text-xs font-semibold rounded-sm hover:bg-taupe transition-all text-center shadow-lg"
+            className="hidden md:block px-8 py-4 bg-primary text-white uppercase tracking-[0.2em] text-xs font-semibold rounded-sm hover:bg-taupe transition-all text-center shadow-lg"
           >
             View Projects
           </a>
